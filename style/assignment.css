@@ -172,10 +172,16 @@ padding: 50px 142px;
 max-width: 1140px;
 height: 306px;
 }
+.users-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    margin: 137px 150px 50px 150px;
+}
 .users-feedback{
     display: flex;
 
-    margin: 0 auto;
+    margin: 0 150px 137px 150px;
     
     
    
@@ -204,9 +210,20 @@ height: 306px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: ;
+    /* gap:8px ; */
 }
 .footer-description{
     font-size:medium;
-
+text-align: center;
+}
+.footer-box{
+    width: 531px;
+    height: 221px;
+}
+footer{
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 4px 0 #000000;
+    max-width: 1440px;
+    height: 428px;
+    padding: 104px 455px ;
 }
